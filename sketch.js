@@ -1,25 +1,28 @@
 function setup() {
   let playing = true
   //setting random
-  let rand = Math.floor(random(1, 10))
+  let rand = 1 //Math.floor(random(1, 10))
 
   //starts of game
   while(playing){
     //user input
     let guess = Number(prompt("Guess a number between one and ten: "))
-    
+
+    //checks guess
     if(guess > rand){
       guess = Number(prompt("thats too high, try again: "))
     }
-    else if(guess < rand){
+    else if(guess < rand){      
       guess = Number(prompt("thats too low, try again: "))
     }
     else if(guess == rand){
       alert("Well Done")
       playing = false
     }
-
-    
+    else{
+      alert("Goodbye")
+      playing = false
+    }    
   }
 
 }
