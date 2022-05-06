@@ -40,12 +40,12 @@ function onSubmit(){
         if(accounts[i].getEmail() == emailInput){
           activeAccount = accounts[i]
         }
-        
-        
     }
 
     if (activeAccount){
-        alert("yes")
+        if(activeAccount.getPassword()==passwordInput){
+            alert("")
+        }
     }
 }
 
