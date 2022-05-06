@@ -39,9 +39,8 @@ function onSubmit(){
     for(let i = 0; i < accounts.length; i++){
         if(accounts[i].getEmail() == emailInput){
           activeAccount = accounts[i]
-          
-          
         }
+        
         
     }
 
