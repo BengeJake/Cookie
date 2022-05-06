@@ -1,13 +1,14 @@
 let emailInput = ""
 let passwordInput = ""
 let button
-let accounts = [new Account("Jake@mail.com", "Orange"), new Account("Elizabeth@mail.com", "Apple"), new Account("Helen@mail.com", "Banana"), new Account("Chloe@mail.com", "Kiwi")]
+let accounts
     
 
 function setup() {
    createCanvas(200, 400)
     background('ffffff')
     createInputs()
+    accounts = [new Account("Jake@mail.com", "Orange"), new Account("Elizabeth@mail.com", "Apple"), new Account("Helen@mail.com", "Banana"), new Account("Chloe@mail.com", "Kiwi")]
 }
 //This function creates the textboxes and button
 function createInputs(){
