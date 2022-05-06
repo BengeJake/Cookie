@@ -38,8 +38,15 @@ function onSubmit(){
     for(let i = 0; i < accounts.length; i++){
         if(accounts[i].getEmail() == emailInput){
           activeAccount = accounts[i]
+
+          alert("yes")
+
+
         }
-      }
+        else{
+            alert("Wrong email innit")
+        }
+    }
 }
 
 //Sets the emailInput to whatever the user types in the email field
