@@ -20,6 +20,4 @@ function setup() {
       playing = false
     }  
   }
-
 }
-  
