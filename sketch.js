@@ -1,9 +1,9 @@
 function setup() {
   let playing = true
 
-while(playing){
+ while(playing){
   playing = false
-}
+ }
 
 
   }
