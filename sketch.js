@@ -1,9 +1,11 @@
 function setup() {
-  //Chloe woz ere 2022
-  //Helen was here 2022
-    createCanvas(400, 400);
+  let playing = true
+
+while(playing){
+  playing = false
+}
+
+
   }
   
-  function draw() {
-    background(0);
-  }
+  
