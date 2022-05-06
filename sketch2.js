@@ -8,7 +8,7 @@ function setup() {
    createCanvas(200, 400)
     background('ffffff')
     createInputs()
-    accounts = [new Account("Jake@mail.com", "Orange"), new Account("Elizabeth@mail.com", "Apple"), new Account("Helen@mail.com", "Banana"), new Account("Chloe@mail.com", "Kiwi")]
+    accounts = [new Account("jake@mail.com", "orange"), new Account("elizabeth@mail.com", "apple"), new Account("helen@mail.com", "banana"), new Account("chloe@mail.com", "kiwi")]
 }
 //This function creates the textboxes and button
 function createInputs(){
@@ -52,7 +52,7 @@ function onSubmit(){
 
 //Sets the emailInput to whatever the user types in the email field
 function onEmailInput(){
-    emailInput = this.value()
+    emailInput = this.value().toLowerCase()
 }
 //Sets the passwordInput to whatever the user types in the password field
 function onPasswordInput(){
