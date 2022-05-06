@@ -27,11 +27,21 @@ function createInputs(){
     button.position(10, 140);
     button.mousePressed(onSubmit);
 }
+
+
 function onSubmit(){
     //3. This function is called when the submit button is pressed,
     // add code to check whether the username and password is correct
-   
+
+    let activeAccount
+
+    for(let i = 0; i < accounts.length; i++){
+        if(accounts[i].getEmail() == emailInput){
+          activeAccount = accounts[i]
+        }
+      }
 }
+
 //Sets the emailInput to whatever the user types in the email field
 function onEmailInput(){
     emailInput = this.value()
