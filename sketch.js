@@ -15,7 +15,7 @@ function setup() {
     else if(guess < rand){      
       alert("thats too low, try again: ")
     }
-    else if(guess == rand){
+    else (guess == rand);{
       alert("Well Done")
       playing = false
     }  
@@ -23,4 +23,4 @@ function setup() {
 
 }
   
-  
+  //testing 
