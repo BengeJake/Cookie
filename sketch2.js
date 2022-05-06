@@ -33,6 +33,8 @@ function onSubmit(){
     //3. This function is called when the submit button is pressed,
     // add code to check whether the username and password is correct
 
+    alert(`${accounts.length}`)
+
     let activeAccount
 
     for(let i = 0; i < accounts.length; i++){
@@ -46,6 +48,10 @@ function onSubmit(){
         else{
             alert("Wrong email innit")
         }
+    }
+
+    if (activeAccount){
+        alert("yes")
     }
 }
 
