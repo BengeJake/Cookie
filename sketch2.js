@@ -43,7 +43,7 @@ function onPasswordInput(){
 class Account{
     constructor(){
     }
-    getUsername(){
+    getEmail(){
     }
     getPassword(){
     }
