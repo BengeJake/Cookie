@@ -42,7 +42,9 @@ function onPasswordInput(){
 }
 //1. Complete the implementation of this account class
 class Account{
-    constructor(){
+    constructor(email, password){
+        this.email = email
+        this.password = password
     }
     getEmail(){
     }
