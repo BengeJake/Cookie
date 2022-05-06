@@ -40,13 +40,11 @@ class RainDrop{
   }
   //sets animation
   drop(){
-    this.x += this.speed
     this.y += this.speed
-    if(this.x > screenHeight){
-      this.x = -5
+    
+    if(this.y > screenHeight){
+        this.y = this.y - this.speed
     }
-    if(this.y > screenWidth){
-      this.y = -5
-    }
+    
   }
 }
