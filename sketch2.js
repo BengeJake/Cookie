@@ -44,8 +44,12 @@ function onSubmit(){
 
     if (activeAccount){
         if(activeAccount.getPassword()==passwordInput){
-            alert("")
+            alert("Login Successful")
+        }else {
+            alert("Incorrect Password")
         }
+    }else {
+        alert("Incorrect Email")
     }
 }
 
