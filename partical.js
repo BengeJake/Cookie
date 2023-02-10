@@ -43,7 +43,7 @@ class RainDrop{
     this.y += this.speed
     
     if(this.y > screenHeight){
-        this.y = this.y - this.speed
+        this.y = 0
     }
     
   }
